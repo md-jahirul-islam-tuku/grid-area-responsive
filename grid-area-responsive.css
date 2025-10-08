@@ -23,6 +23,7 @@
   font-size: 16px;
   grid-area: header;
   background-color: purple;
+  border-radius: 10px;
   text-align: center;
   color: #FFFFFF;
 }
@@ -44,12 +45,14 @@
 .menu li {
   padding: 8px;
   background-color: #33b5e5;
+  border-radius: 5px;
   margin-bottom: 7px;
   color: #FFFFFF;
 }
 
 .menu li:hover {
   background-color: #0099cc;
+  cursor: pointer;
 }
 
 .main {
@@ -68,6 +71,7 @@
 .sidebar {
   grid-area: sidebar;
   border: 2px solid #0099cc;
+  border-radius: 10px;
   padding: 15px;
 }
 
@@ -84,6 +88,7 @@
 .footer {
   grid-area: footer;
   background-color: #0099cc;
+  border-radius: 5px;
   color: #FFFFFF;
   text-align: center;
   padding: 7px;
